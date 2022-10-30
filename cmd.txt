@@ -19,3 +19,10 @@ to create a branch:
 
 to check current working branch:
     git status
+
+comand to swithc branch :
+    git checkout branch-name
+
+
+pushing content new branch:
+    git push origin branch-name
