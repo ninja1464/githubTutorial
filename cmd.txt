@@ -8,9 +8,31 @@ defintion of branch :
 brnach is nothing but a copy of repo which can be further modified accoding to the need without disturbing main branch 
 then we can merge this branch wiith original branch if everything we seems fine
 
-command to check current branch: 
+command to check all local branches: 
     git branch
 
-to check all branches:
+to check all(remote + local) branches:
     git branch -a
 
+To check in what branch we are:
+	git status
+
+To merge branch with another branch
+	go inside the branch where u Want to get data of another branch in most of the u should be inside the main branch (git merge branch-name) u want merge with
+
+
+To switch branch:
+	git checkout branch-name
+
+
+// revert back commands
+
+To revert back:
+	if not committed and not staged then (git checkout file-name)
+	if staged and not committed (git restore --staged file-name)
+	if staged and committed (git revert HEAD)
+To point to previous commit in soft way:
+	git push origin branch-name
+
+To push with a new branch :
+	git push origin branch-name
