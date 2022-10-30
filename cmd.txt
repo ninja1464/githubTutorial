@@ -13,16 +13,3 @@ command to check all local branches:
 
 to check all(remote + local) branches:
     git branch -a
-
-to create a branch:
-    git checkout -b branch-name
-
-to check current working branch:
-    git status
-
-comand to swithc branch :
-    git checkout branch-name
-
-
-pushing content new branch:
-    git push origin branch-name
