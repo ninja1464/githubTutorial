@@ -8,7 +8,7 @@ defintion of branch :
 brnach is nothing but a copy of repo which can be further modified accoding to the need without disturbing main branch 
 then we can merge this branch wiith original branch if everything we seems fine
 
-command to check current branch: 
+command to check all local branches: 
     git branch
 
 to check all branches:
