@@ -1,0 +1,15 @@
+when we are connected with github  rep on internet then our branch name is master.
+and when link iur local repo with github.com then our master become main    branch .
+we should make our master branch to main branch to avoid data losses.
+
+
+
+defintion of branch :
+brnach is nothing but a copy of repo which can be further modified accoding to the need without disturbing main branch 
+then we can merge this branch wiith original branch if everything we seems fine
+
+command to check current branch: 
+    git branch
+
+to check all branches:
+    git branch -a
