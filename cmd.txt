@@ -13,3 +13,4 @@ command to check current branch:
 
 to check all branches:
     git branch -a
+
