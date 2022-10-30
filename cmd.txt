@@ -11,5 +11,11 @@ then we can merge this branch wiith original branch if everything we seems fine
 command to check all local branches: 
     git branch
 
-to check all branches:
+to check all(remote + local) branches:
     git branch -a
+
+to create a branch:
+    git checkout -b branch-name
+
+to check current working branch:
+    git status
